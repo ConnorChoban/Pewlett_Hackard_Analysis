@@ -8,4 +8,9 @@ The secondary objective of this analysis is to determine which employees are eli
 
 Results
 
+* Major point one
+* Major point two
+* Major point three
+* Major point four
+
 Summary
