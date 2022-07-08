@@ -4,9 +4,9 @@ Note: In the CSV files for this module, the data for employees in the to_date co
 
 ## Overview of Analysis and Methodology
 
-The primary objective of this analysis is to gather data on employees who are nearing retirement so that we can better prepare the organization to replace their positions with new hires. In order to do so, we need to determine who is likely to retire within the next few years, and we can do this by filtering our dataset by age, position, and department, and creating a several tables to store and reproduce this information on demand. 
+The primary objective of this analysis is to gather data on employees who are nearing retirement so that we can better prepare the organization to replace their positions with new hires. In order to do so, we need to determine who is likely to retire within the next few years, and we can do this by filtering our dataset by age, position, and department, and creating several tables to store and reproduce this information on demand. 
 
-The secondary objective of this analysis is to determine which employees are eligible for a new Mentorship program, designed to pass on information from long term workers to new joiners. We do this by looking at employees who were born in 1965, which is ten years later than the final date in the data set created, to track employees who may be retiring soon. This way we can ensure that we invest in new employee development as much as possible. 
+The secondary objective of this analysis is to determine which employees are eligible for a new Mentorship program, designed to pass on information from long term workers to new joiners. We do this by creating a table of employees who were born in 1965 so we can track employees who may be retiring soon. This way we can ensure that we invest in new employee development as much as possible, and that there's minimal loss of knowledge as employees leave the organization. 
 
 ## Results
 
@@ -22,7 +22,7 @@ The next table provides a count of how many senior employees occupy each title. 
 
 <img width="227" alt="Screen Shot 2022-07-08 at 1 57 09 AM" src="https://user-images.githubusercontent.com/99847786/177928215-4d1d167c-c8b4-4f66-b54a-aaa53e247270.png">
 
-Finally, the last table shows which employees are eligible to participate in the mentorship program we'll be developing, and fulfills the second objective of our analysis.
+Finally, the last table shows which employees are eligible to participate in the mentorship program we'll be developing, and fulfills the secondary objective of our analysis.
 
 <img width="754" alt="Screen Shot 2022-07-08 at 1 56 54 AM" src="https://user-images.githubusercontent.com/99847786/177928143-f2485f93-bee3-4689-86a4-3d41530cd30f.png">
 
@@ -33,4 +33,4 @@ By looking at the various tables we can draw a few conclusions. In total, 72,464
 
 The remainder of the positions (21,620 openings) can be filled by interns or talent that's new to the industry - and here's where the mentorship program comes in handy. In our mentorship_eligibility table we identified 1,550 workers who can serve as mentors over a period of 10 years. As we'll have some 21,000 new employees, each mentor would have to train approximately 14 new joiners; this is an excessive commitment so we'll need to expand the mentorship program. 
 
-We could use SQL to create a table showing which employees will become eligible for the mentorship program within the next few years, and instead of having each employee train 14 new hires, we could have a program where each mentor guides two new employees, each for a 6 month period each year. Finally, we could create a second table keeping track of each new hire and their corresponding mentor. We could even join the expanded mentorship program table with the table showing the mentors for each new hire and create an even more informative and streamlined table combining all of the necessary information. 
+We could use SQL to create a table showing which employees will become eligible for the mentorship program within the next few years, and instead of having each employee train 14 new hires, we could expand the program to include employees born in 1966, 1967, etc.., and develop a program where each mentor guides two new employees, each for a 6 month period each year, over the course of several years. Finally, we could create a second table keeping track of each new hire and their corresponding mentor. We could even join the expanded mentorship program table with the table showing the mentors for each new hire and create an even more in-depth and streamlined table storing a wealth of pertinent information. 
