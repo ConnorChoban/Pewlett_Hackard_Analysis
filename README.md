@@ -10,7 +10,7 @@ The secondary objective of this analysis is to determine which employees are eli
 
 ## Results
 
-The first table we designed combines date from the Employees and Titles tables we created during this module. This table serves as a preliminary analysis, showing us all employees who are eligible for retirement and their tenure with the organization.
+The first table we designed combines data from the Employees and Titles tables we created during this module. This table serves as a preliminary analysis, showing us all employees who are eligible for retirement and their tenure with the organization.
 
 <img width="754" alt="Screen Shot 2022-07-08 at 1 56 33 AM" src="https://user-images.githubusercontent.com/99847786/177928164-4d617916-5ca4-4d81-b4bb-856481a4ae76.png">
 
