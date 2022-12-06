@@ -6,7 +6,7 @@ Note: In the CSV files for this module, the data for employees in the to_date co
 
 The primary objective of this analysis is to gather data on employees who are nearing retirement so that we can better prepare the organization to replace their positions with new hires. In order to do so, we need to determine who is likely to retire within the next few years, and we can do this by filtering our dataset by age, position, and department, and creating several tables to store and reproduce this information on demand. 
 
-The secondary objective of this analysis is to determine which employees are eligible for a new Mentorship program, designed to pass on information from long term workers to new joiners. We do this by creating a table of employees who were born in 1965 so we can track employees who may be retiring soon. This way we can ensure that we invest in new employee development as much as possible, and that there's minimal loss of knowledge as employees leave the organization. 
+The secondary objective of this analysis is to determine which employees are eligible for a new Mentorship program, designed to pass on information from long term workers to new joiners. We do this by creating a table of employees who were born in 1965 so that we can track employees who might be retiring soon. This way we can ensure that we invest in new employee development as much as possible, and that there's minimal loss of knowledge as employees leave the organization. 
 
 ## Results
 
